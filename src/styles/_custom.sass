@@ -39,3 +39,36 @@
   background-size: cover
 .fa-heart::before
   content: url(../assets/curso/temas/heart.svg)
+
+.tarjeta-citas
+  position: relative
+  &:before
+    position: absolute
+    content: url(../assets/curso/temas/comillas.png)
+    top: -0px
+    left: 30px
+  &:after
+    position: absolute
+    content: url(../assets/curso/temas/comillas.png)
+    bottom:  -30px
+    right: 30px
+    transform: rotate(180deg)
+
+
+//FONDOS//
+.bg-1
+  background-image: url("../assets/curso/temas/bg-tema1-1.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0
+
+.bg-1-1
+  background-image: url(../assets/curso/temas/bg-tema1.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+.bg-1-2
+  background-image: url(../assets/curso/temas/bg-tema1-2.png)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: center
