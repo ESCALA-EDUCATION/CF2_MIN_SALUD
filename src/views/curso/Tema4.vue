@@ -341,15 +341,615 @@
               p.mb-0 Relacionado con la promoción y garantía del ejercicio de los derechos económicos, sociales y culturales. Enfatiza en la igualdad de acceso y no discriminación en servicios como salud, educación, trabajo, vivienda, recreación, deporte y cultura para personas LGBTI, adoptando medidas técnicas y económicas necesarias.
     img.mb-5(src='@/assets/curso/temas/18.svg', alt='')
     p.mb-5(data-aos='fade-right') Desde este enfoque, el personal de salud debe desarrollar acciones y mecanismos afirmativos que garanticen una atención con equidad independiente de la Orientación Sexual e Identidad de Género. Para lo anterior, presentamos algunas acciones positivas para tener en cuenta: 
+    TabsC.color-acento-botones.mb-5
+      .p-5.py-md-5(titulo="Intimidad" style="background-color:#E8F0FF; margin-top: -15px")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-4.mb-md-0
+            h4 Intimidad
+            p Garantizar en todo momento la intimidad y confidencialidad de la información que aporta la persona atendida. Solicitar permiso para realizar cualquier exploración, incluso si es un supuesto ordinario del proceso asistencial. Si se trata de una persona adolescente acompañada por su padre, madre o cuidador, considerar los procedimientos que protegen su intimidad en el marco de los derechos sexuales y reproductivos. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Tener en cuenta que algunas preguntas o respuestas pueden ser detonantes de violencia intrafamiliar en contextos homofóbicos o transfóbicos. 
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Durante el examen físico, asegurar que no ingresen otros profesionales de la salud sin el consentimiento de la persona.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Las personas trans pueden experimentar incomodidad con sus cuerpos, y el examen físico puede ser traumático; se recomienda dilatar la exploración de mama, genitales y rectales hasta haber establecido una relación médico-paciente fuerte y solo si es médicamente necesario. 
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 No tratar a las personas trans e intersex como curiosidades médicas ni exhibirlas ante otros profesionales. 
+            p.mb-5(data-aos='fade-right') Referir siempre a la persona por su identidad de género y pronombres preferidos.
+          .col-lg-5.col-7: img(src='@/assets/curso/temas/69.png', alt='')
+      .p-5.py-md-5(titulo="Confidencialidad" style="background-color:#E8F0FF; margin-top: -15px")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-4.mb-md-0
+            h4 Confidencialidad
+            p El usuario tiene derecho a la protección de los datos de salud consignados en la historia clínica, lo que implica a todos los profesionales que intervienen en el acto clínico. 
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 No realizar comentarios sobre la identidad de género, orientación sexual o expresión de género de la persona con otras no relacionadas con el acto clínico. 
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Esto incluye la publicación de información de casos puntuales a través de redes sociales, incluso si se omite el nombre de la persona. 
+            p.mb-5(data-aos='fade-right') Asegurar que la información sensible no aparezca en resúmenes de historia clínica u otros documentos administrativos a menos que sea necesario para acceder a un servicio. Implementar capacitación y sensibilización al personal administrativo para manejar esta información de manera humanizada y sin discriminación.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/70.png', alt='')
+      .p-5.py-md-5(titulo="Respecto al nombre identitario" style="background-color:#E8F0FF; margin-top: -15px")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-4.mb-md-0
+            h4 Respecto al nombre identitario
+            p Si el nombre o la identidad de género de una persona no coincide con la historia clínica, preguntar si podría estar bajo un nombre diferente sin insinuar que su nombre identitario no es "real".
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Respetar la identidad de género y orientación sexual de la persona, usando los pronombres y nombre preferidos. 
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Emplear un lenguaje respetuoso e inclusivo. 
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 Si el nombre identitario difiere del documento, no debe ser una barrera para la atención. 
+            p No cuestionar la expresión de género en ningún momento, y evitar juicios de valor sobre roles de género o reproducir estereotipos que atenten contra la diversidad sexual y la dignidad humana.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/71.png', alt='')
+      .p-5.py-md-5(titulo="Respecto a la orientación sexual" style="background-color:#E8F0FF; margin-top: -15px")
+        .row.justify-content-center.align-items-center
+          .col-lg-6.mb-4.mb-md-0
+            h4 Respecto a la orientación sexual
+            p Durante cualquier consulta y consejería/orientación, no presuponer la identidad de género de la pareja de la persona, ni asumir si la relación es monogámica. 
+              br
+              | Reconocer las características específicas de niños, niñas y adolescentes en relación a su sexualidad, procurando comunicación directa y no mediada por padres o acudientes responsables.
+          .col-lg-4.col-7: img(src='@/assets/curso/temas/72.png', alt='')
+    .tarjeta.p-5.mb-5(style="background-color: #2a3c52")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/24.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col-10.mb-3.mb-sm-0
+                p.text-white #[span.colo-acento El anexo_1] resumen acciones a realizar con todos los niños y niñas, independiente de su orientación sexual o identidad de género con el objetivo de apoyar su salud sexual y reproductiva.
+              .col.mb-3.mb-sm-0
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  span Descargar 
+                  i.fas.fa-file-download
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right") 
+        p.mb-3(data-aos='fade-right') El anterior ejemplo proporciona orientaciones clave dentro del proceso de atención a niños, niñas y adolescentes bajo el marco del #[b(style="color: #0F5FFE ") Enfoque de Orientaciones Sexuales e Identidades de Género Diversas.] Para aquellos que desean iniciar un procedimiento de reafirmación de género, conocido también como reasignación de sexo, es esencial considerar dentro del plan terapéutico las intervenciones quirúrgicas pertinentes.
+        .tarjeta.p-5(style="background-color: #2c3e50 ").mb-4
+          p.mb-0.text-white De acuerdo con la política pública nacional, este enfoque debe fomentar acciones y mecanismos que promuevan el restablecimiento de derechos en un marco de equidad y con un enfoque diferencial, considerando las diversas condiciones que afectan el ejercicio efectivo de los derechos de las personas intersexuales #[span.color-acento (Ministerio del Interior, 2018).]
+      .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/73.png', alt='')
+    .bg-4-2.p-5.mb-5
+      SlyderE(indicadores="derecha").mt-3
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h4(style="color: #0F5FFE ").mb-5 Atención inclusiva y valorativa
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Política Pública]  
+                  br
+                  | Garantiza el ejercicio efectivo de derechos para personas de sectores sociales LGBTI y con orientaciones sexuales e identidades de género diversas.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Decreto aplicable ]  
+                  br
+                  | Decreto 762/2018.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Entidades involucradas]  
+                  br
+                  | Gobierno nacional y otras entidades.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Grupos de atención especial]  
+                  br
+                  | Adultos mayores, trabajadores sexuales, personas con discapacidad, personas en situación de calle, y consumidores de sustancias psicoactivas (SPA).
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/74.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h4(style="color: #0F5FFE ").mb-5 Plan Decenal de Salud Pública 2022-2031
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Resolución ]  
+                  br
+                  | Resolución 2367 de 2023.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Enfoque ]  
+                  br
+                  | Adopción del enfoque diferencial como un componente transversal y estratégico que permite aplicar medidas especiales para grupos socialmente desventajados.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/75.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h4(style="color: #0F5FFE ").mb-5 Objetivos del enfoque diferencial
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Reconocimiento ]  
+                  br
+                  | Reconoce las condiciones de desigualdad social, económica y cultural de grupos históricamente marginados y excluidos.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b  Acciones requeridas ]  
+                  br
+                  | Acciones específicas para fomentar la autonomía, inclusión y justicia social.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Meta ]  
+                  br
+                  | Permitir el acceso en igualdad de oportunidades a los bienes y servicios de la sociedad.
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/76.png', alt='')
+        .row
+          .col-lg-7.mb-4.mb-md-0
+            h4(style="color: #0F5FFE ").mb-5 Principios fundamentales
+            ul.lista-ul--color
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Universalidad]  
+                  br
+                  | Abarca todos los aspectos relacionados con los derechos humanos.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Equidad e igualdad ]  
+                  br
+                  | Atención con ajustes o interpretaciones locales, promoviendo la igualdad de manera real y efectiva.
+              li.d-flex
+                i.fas.fa-heart
+                p.mb-0 #[b Principio de acción ]  
+                  br
+                  | #[em "A cada cual según su necesidad y de cada cual según su capacidad"] (UNFPA 2019).
+          .col-lg-5.col-7
+            figure
+              img(src='@/assets/curso/temas/77.png', alt='')
+    .bg-1-1.mn.mb-4
+        .row.justify-content-center.mb-5
+          .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/78.png', alt='')
+          .col-lg-7
+            .tarjeta.h-100.p-5.d-flex.align-items-center(style="background-color: #DEE4F0")
+              p.mb-0 Como parte de las políticas nacionales, los #[b(style="color: #0F5FFE ") Lineamientos de Transversalización de Enfoque de Género] buscan que, mediante el Enfoque Diferencial, se genere una respuesta institucional que parte del conocimiento de las situaciones o condiciones de vulnerabilidad social. Esta vulnerabilidad social nace a partir de las características de las personas y del contexto histórico, social y cultural, y puede determinar o incrementar la carga de desigualdad, generando diversas experiencias entre las personas para la garantía de sus derechos. En el marco del sector salud, este tipo de enfoque garantiza que las personas en condiciones de vulnerabilidad social, originada por sexo, género u orientación sexual, puedan tener acceso a todos aquellos recursos y oportunidades indispensables para estar y permanecer de forma igualitaria en la garantía de sus derechos.
+    .tarjeta.p-4(style="background-color: #2c3e50 ").mb-5
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/79.svg', alt='')
+        .col-lg-11(data-aos="fade-left")
+          p.mb-0.text-white Para que el talento humano en salud pueda dar cumplimiento a este tipo de enfoque, se pueden tener en cuenta los siguientes elementos durante la atención de las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas: 
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-white.tarjeta.overflow-hidden.sombra.h-100
+          img(src='@/assets/curso/temas/80.png', alt='')
+          .p-4
+            .text-center
+              h5.mb-4 Facilitación de información
+              p.mb-0 Facilitar la información de manera comprensible, considerando condiciones de formación, discapacidad o alfabetismo. Utilizar un lenguaje claro y sencillo, con frases simples y cortas, voz coloquial y activa, y un estilo que sea directo, específico y concreto.
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-white.tarjeta.overflow-hidden.sombra.h-100
+          img(src='@/assets/curso/temas/81.png', alt='')
+          .p-4
+            .text-center
+              h5.mb-4 Información escrita accesible
+              p.mb-0 En caso de dar información de tipo escrito, como fórmulas médicas o registros en historia clínica, esta debe ser de lectura fácil, empleando terminología no técnica para mantener la sencillez y universalidad en la redacción y presentación.
+      .col-lg-4.mb-lg-0.mb-3
+        .bg-white.tarjeta.overflow-hidden.sombra.h-100
+          img(src='@/assets/curso/temas/82.png', alt='')
+          .p-4
+            .text-center
+              h5.mb-4 Capacidad de escucha activa
+              p.mb-0 Tener capacidad de escucha activa ante todas las necesidades expresadas y ser receptivo frente a las opiniones y preguntas. Mantener el lenguaje verbal y corporal que transmita una actitud de escucha y atención.
+    .mn.py-lg-0.mb-5(style="background-color: #423755")
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4.col-7: img(src='@/assets/curso/temas/83.svg', alt='')
+        .col-lg-8
+          .p-4
+            p.mb-0.text-white Para finalizar la revisión del #[span.color-acento Enfoque Diferencial], el talento humano en salud debe reconocer que este tipo de enfoque incluye el concepto de #[span.color-acento acciones afirmativas], el cual hace alusión a todas las acciones diferenciadas y ajustes razonables que se deben ejecutar durante la prestación del servicio para garantizar el derecho a la salud, teniendo en cuenta los principios de igualdad y no discriminación #[span.color-acento (Ministerio de Salud y Protección Social, Oficina de Promoción Social, 2023).]
+    p.mb-5(data-aos='fade-right') Dentro del Enfoque Diferencial, se incorpora el #[b(style="color: #0F5FFE ") Enfoque Interseccional], responsable de articular y analizar la interacción de varias categorías identitarias o características particulares, como #[b(style="color: #0F5FFE ") sexo, género, orientación sexual, identidad de género, etnicidad, discapacidad, ruralidad, rol social o político, clase, etnicidad o raza, entre otras.] Este enfoque ayuda a comprender la interacción de estas características con el fin de intervenirlas de manera conjunta y articulada (Ministerio del Interior, 2018).
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
+        p En el marco de los #[b(style="color: #0F5FFE ") Lineamientos de Transversalización de Enfoque de Género], el Enfoque Interseccional se suma al Enfoque de Género en la medida que permite identificar la presencia simultánea de más de una característica diferencial de las personas, ya sea por pertenencia étnica, género, discapacidad, curso de vida, entre otras, las cuales en un contexto determinado (histórico, social y cultural) aumentan el estado de desigualdad, generando experiencias diversas entre las personas.
+          br
+          br
+          | Para dar cumplimiento a este enfoque, el talento humano en salud puede tener en cuenta acciones como: 
+      .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/84.png', alt='')
+    .mn.bg-4.mb-4
+      .row.justify-content-center
+        .col-lg-4.mb-lg-0.mb-3
+          .tarjeta.p-5.h-100(style="background-color: #5B92FE")
+            img(src='@/assets/curso/temas/n1.svg', alt='' style="width:76px").mb-4
+            p.mb-0.text-white Dar trato humanizado que pongan en primer lugar la seguridad y condición emocional de la persona. 
+        .col-lg-4.mb-lg-0.mb-3
+          .tarjeta.p-5.h-100(style="background-color: #A7F7DD")
+            img(src='@/assets/curso/temas/n2.svg', alt='' style="width:76px").mb-4
+            p.mb-0 Generar empatía, propiciando un ambiente de confianza y seguridad, permitiendo la plena libertad para exponer lo que la persona requiera. 
+        .col-lg-4.mb-lg-0.mb-3 
+          .tarjeta.p-5.h-100(style="background-color: #5B92FE")
+            img(src='@/assets/curso/temas/n3.svg', alt='' style="width:76px").mb-4
+            p.mb-0.text-white Si identifica que usted no tiene la competencia para asumir el caso, no dude en realizar la remisión al profesional que el paciente requiera, acorde con las guías y protocolos de atención establecidas en el lugar de atención.  Ante esta situación, debe explicarle a la persona por qué no puede asumir el caso y a quién remite para dar continuidad a la atención. 
+    .tarjeta.p-5(style="background-color: #2c3e50 ").mb-4
+          p.mb-0.text-white Ejemplo_ Como ejemplo de lo anterior, si la persona perteneciente a la comunidad LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas tiene además una discapacidad, podría experimentar una doble discriminación. Por ello, en el momento de la prestación del servicio, es crucial identificar estos aspectos para ofrecer una atención diferenciada. Si la persona está siendo atendida en el marco de la ruta de promoción y mantenimiento de la salud, debe existir una adaptabilidad de la ruta, ajustando los procesos administrativos y asistenciales para eliminar las barreras de acceso de la siguiente manera:
+    .row.justify-content-center.mb-4
+      .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/85.png', alt='') 
+      .col-lg-7(data-aos="fade-left")
+        .bg-4-2.p-5.mb-5.h-100.rounded-3.overflow-hidden
+          SlyderE(indicadores="derecha").mt-3
+            div
+              h4(style="color: #0F5FFE ").mb-5 1. No aplica 
+              p.mb-5 Ajustar agendas. 
+            div
+              h4(style="color: #0F5FFE ").mb-5 2. No aplica
+              p.mb-5 Atención preferencial. 
+            div
+              h4(style="color: #0F5FFE ").mb-5 3. No aplica
+              p.mb-5 Ordenamiento y dispensación de medicamentos u otros dispositivos (ejemplo: métodos de anticoncepción). 
+            div
+              h4(style="color: #0F5FFE ").mb-5 4. No aplica
+              p.mb-5 Inclusión de ajustes razonables para la eliminación de barreras físicas, actitudinales y comunicativas, entre otros. 
+            div
+              h4(style="color: #0F5FFE ").mb-5 5. No aplica
+              p.mb-5 La dotación y diseño adecuados a la cosmovisión o a la condición de las personas a atender.
+            div
+              h4(style="color: #0F5FFE ").mb-5 6. No aplica
+              p.mb-5 Canalización hacia el procedimiento de certificación y registro de localización y caracterización de personas con discapacidad.
+            div
+              h4(style="color: #0F5FFE ").mb-5 7. No aplica
+              p.mb-5 Partir del reconocimiento que las personas con discapacidad son sujetos con plenos derechos, lo que incluye la garantía de sus derechos sexuales y derechos reproductivos.
+            div
+              h4(style="color: #0F5FFE ").mb-5 8. No aplica
+              p.mb-5 En ese orden de ideas, una persona con discapacidad puede tener una identidad de género, expresión de género y orientación sexual no hegemónica. Por ejemplo, puede tratarse de una mujer sorda, quien se identifica como lesbiana. O un hombre con discapacidad intelectual, que siente atracción por otros hombres. O una mujer trans con discapacidad física, quien se identifica como bisexual.
+            div
+              h4(style="color: #0F5FFE ").mb-5 9. No aplica
+              p.mb-5 En el caso de las personas con discapacidad intelectual, existen aún más prejuicios relacionados con su sexualidad, por lo que, se recomienda abordar el tema de forma sensible y asertiva, de manera que sea posible que esta persona se exprese de forma directa, sin que las personas cuidadoras que le acompañen respondan o descarte ciertas posibilidades en su nombre.
+            div
+              h4(style="color: #0F5FFE ").mb-5 10. No aplica
+              p.mb-5 Tener en cuenta protocolos de antidiscriminación.
+    img.mb-5(src='@/assets/curso/temas/18.svg', alt='')
+    p.mb-5(data-aos='fade-right') Es relevante revisar el #[b(style="color: #0F5FFE ") Enfoque de Género], entendiéndose el género como una construcción social que ha ayudado a comprender y dar explicación a todas las desigualdades existentes en la sociedad en lo que respecta a hombres y mujeres.
+      br
+      |Como manifiesta Raube Isabel en el documento "Género y Poder": 
+    .row.justify-content-center.mb-2
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
+        .tarjeta.p-5(style="background-color: #2c3e50 ").mb-4
+          p.mb-0.text-white "El género es la forma social que adopta cada sexo, toda vez que se le adjudican connotaciones específicas de valores, funciones y normas, o lo que también se llama, no muy acertadamente, roles sociales."
+        p.mb-5(data-aos='fade-right') En el marco de los #[b(style="color: #0F5FFE ") Lineamientos de Transversalización del Enfoque de Género], este enfoque brinda la oportunidad de identificar las #[b(style="color: #0F5FFE ") desigualdades, discriminaciones y violencias] basadas en aspectos como #[b(style="color: #0F5FFE ") el sexo, la identidad de género y la orientación sexual de las personas.] Asimismo, se observan las diferencias respecto al poder y los diversos roles que desempeñan mujeres y hombres en la vida familiar, la sociedad, el trabajo, la política y otros ámbitos de interacción humana, según el Plan Decenal de Salud Pública (PDSP) del MinSalud, 2022-2031.
+          br
+          br
+          |Conforme a lo expuesto en el PDSP, el Enfoque de Igualdad de Género "facilita la visibilidad de todas las desigualdades, discriminaciones y violencias basadas en el sexo, la identidad de género y la orientación sexual de las personas, así como las diferencias en el ejercicio del poder y los roles entre mujeres y hombres en la vida familiar, la sociedad, el trabajo, la política y otros ámbitos de interacción humana" (PDSP 2022-2031 / Res.2367 de 2023).
+      .col-lg-6.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/86.png', alt='')
+    p.mb-5(data-aos='fade-right') De acuerdo con lo anterior, se debe apuntar a la construcción social #[b(style="color: #0F5FFE ") del sexo, el género y la orientación], con el fin de superar no solo la violencia, sino también situaciones como la discriminación, segregación y/o desigualdad en la atención sanitaria por parte del Estado (Ministerio de Salud y Protección Social, Oficina de Promoción Social, 2023).     
+    .row.justify-content-center.mb-3
+      .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/87.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        p El Plan Decenal de Salud Pública 2022-2031 busca la protección de género a través de promover las acciones afirmativas que "prevengan, atiendan y superen las discriminaciones, exclusiones y violencias en los ámbitos de vida de los sujetos, de acuerdo con su identidad, expresión de género y orientación sexual" (PDSP 2022-2031).
+        .tarjeta.p-4(style="background-color: #2c3e50 ").mb-4
+          p.mb-0.text-white El Plan Decenal de Salud Pública 2022-2031 busca la protección de género a través de promover las acciones afirmativas que #[span.color-acento "prevengan, atiendan y superen las discriminaciones, exclusiones y violencias en los ámbitos de vida de los sujetos, de acuerdo con su identidad, expresión de género y orientación sexual"] (PDSP 2022-2031).
+        .tarjeta.p-4(style="background-color: #B0FAE2 ").mb-2
+          .row.justify-content-center.align-items-center
+            .col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/88.svg', alt='')
+            .col-lg-11(data-aos="fade-left")
+              p.mb-0 Usar lenguaje inclusivo
+        .tarjeta.p-4(style="background-color: #B0FAE2 ").mb-5
+          .row.justify-content-center.align-items-center
+            .col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/89.svg', alt='')
+            .col-lg-11(data-aos="fade-left")
+              p.mb-0 Evite en todo momento expresiones y formas inadecuadas que discriminen. 
+    p.mb-5(data-aos='fade-right') No exprese connotaciones negativas, como, por ejemplo:
+    .row.justify-content-center.mb-3
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #3C1C74 ").h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/90.svg', alt='')
+            .col-lg-9(data-aos="fade-left")
+              p.mb-0.text-white Compórtese como hombre
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #3C1C74 ").h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/91.svg', alt='')
+            .col-lg-9(data-aos="fade-left")
+              p.mb-0.text-white Los hombres no lloran
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #3C1C74 ").h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/92.svg', alt='')
+            .col-lg-9(data-aos="fade-left")
+              p.mb-0.text-white Compórtese como una señorita
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #3C1C74 ").h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/93.svg', alt='')
+            .col-lg-9(data-aos="fade-left")
+              p.mb-0.text-white Parece un hombre
+    .row.justify-content-center.mb-5
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.p-4(style="background-color: #3C1C74 ").h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-3.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/94.svg', alt='')
+            .col-lg-9(data-aos="fade-left")
+              p.mb-0.text-white Parece una mujer
+    .tarjeta.p-5.mb-5(style="background-color: #2a3c52")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/24.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col-10.mb-3.mb-sm-0
+                h4: span.color-acento Recomendaciones para prestar la atención en salud con enfoque de igualdad de género.
+                p.text-white Lo invitamos a enriquecer su conocimiento leyendo el documento "Recomendaciones para Prestar la Atención en Salud con Enfoque de Igualdad de Género", donde descubrirá métodos esenciales para implementar prácticas de salud más inclusivas y equitativas. 
+              .col.mb-3.mb-sm-0
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  span Descargar 
+                  i.fas.fa-file-download
+    img.mb-0(src='@/assets/curso/temas/18.svg', alt='')
+    .mn.py-lg-0.mb-5(style="background-color: #A7F7DD")
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-4.col-7: img(src='@/assets/curso/temas/83.svg', alt='')
+        .col-lg-8
+          .p-4
+            p.mb-0 Como elemento adicional al proceso de atención integral por parte del talento humano en salud, se deben reconocer los elementos clave de la cosmovisión relacionada con los sistemas de conocimiento, usos, prácticas culturales, costumbres y los principios de autonomía, identidad cultural, territorio y gobernabilidad (PDSP 2022-2031 / Res.2367 de 2023).
+    .bg-1-1.mn.mb-4
+      .row.justify-content-center.mb-5
+        .col-lg-7
+          .tarjeta.h-100.p-5.d-flex.align-items-center(style="background-color: #DEE4F0")
+            p.mb-0 Las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas, a menudo enfrentan situaciones de exclusión y violencia dentro de las comunidades y grupos étnicos, según reporta la Comisión Interamericana de Derechos Humanos en el informe #[b(style="color: #0F5FFE ") "Violencia contra Personas Lesbianas, Gay, Bisexuales, Trans e Intersex en América" (2015).] En ese informe, la Comisión menciona la discriminación racial contra personas LGBTI en Colombia, Nicaragua, Estados Unidos, Brasil y los países del Caribe Anglófono. Por un lado, estas situaciones surgen como producto de particularidades culturales o creencias dentro de la comunidad, lo que dificulta que la persona LGBTIQ+ exprese su identidad sin ser discriminada. Por otro lado, puede producirse una doble vulnerabilidad o discriminación identitaria si esa comunidad es una minoría que también sufre discriminación. El Enfoque Étnico reconoce este tipo de situaciones de exclusión y violencia dentro de las comunidades y grupos étnicos #[b(style="color: #0F5FFE ") (Ministerio del Interior, 2018).]
+        .col-lg-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/95.png', alt='')
+    .row.justify-content-center.mb-4
+      .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/96.png', alt='') 
+      .col-lg-8(data-aos="fade-left")
+        p.mb-0 Dentro del Plan Decenal de Salud Pública 2022-2031, se describe que el Enfoque Étnico Diferencial está conformado por comunidades indígenas, negras, afrocolombianas, raizales, palenqueras y Rrom, quienes conservan su cosmovisión e identidad cultural. Para el Estado colombiano es crucial organizar el enfoque étnico diferencial en todos los planes, programas, proyectos y acciones que busquen responder a los requerimientos y necesidades manifestadas por estas comunidades, teniendo como base todas las diferencias tanto contextuales como territoriales e identitarias propias. Con este enfoque, se busca garantizar calidad, cobertura, vinculación, participación, accesibilidad e inclusión #[b(style="color: #0F5FFE ") (Resolución 2367 de 2023).]
+    p.mb-5(data-aos='fade-right') #[b(style="color: #0F5FFE ") El talento humano en salud puede tener en cuenta las siguientes recomendaciones abordar de manera adecuada el enfoque étnico diferencial durante la prestación de los servicios en salud:]
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/97.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        .acordion-modificado 
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acc rounded-0")
+            div(titulo="Respeto a la cosmovisión")
+              p.mb-0 Durante la prestación del servicio de salud, sea respetuoso con la cosmovisión de las personas, particularmente si estas pertenecen a algún grupo étnico.
+            div(titulo="Reconocimiento de expresiones culturales")
+              p.mb-0 Generar servicios que incluyan opciones Transamigables, con personal capacitado y ambientes adaptados para el reconocimiento de sus necesidades e identidades.
+            div(titulo="Uso de intérpretes y mediadores interculturales")
+              p.mb-0 Previo a realizar la atención, identifique si es necesario tener un intérprete o mediador intercultural, reconociendo la ruta metodológica en caso de que se requiera.
+            div(titulo="Material de apoyo en lenguas indígenas")
+              p.mb-0 Algunas lenguas de grupos étnicos cuentan con diccionarios en español, por tanto, es recomendable que cuente con este material de apoyo en el lugar donde realiza la atención.
+            div(titulo="Aprendizaje de lenguas")
+              p.mb-0 Previo a la atención, organice actividades que le permitan conocer algunas de las palabras de la lengua para saludar, despedirse, hacer preguntas básicas, agradecer y otras que considere relevantes dentro del proceso de atención en salud.
+            div(titulo="Adaptación de conceptos técnicos")
+              p.mb-0 Cuando se pueda comunicarse con personas de los grupos étnicos en español, realice una adaptación de los conceptos técnicos a un lenguaje sencillo, claro y que tome en cuenta la vida cotidiana de la persona atendida, así como sus frases o palabras frecuentes.
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-left")
+        .acordion-modificado 
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acc rounded-0")
+            div(titulo="Reflexión sobre estereotipos")
+              p.mb-0 Tenga consciencia sobre los estereotipos y prejuicios que tiene sobre las comunidades indígenas, negras, afro, raizales, palenqueras y Rrom. Se recomienda la reflexión a nivel interno acerca de sus percepciones previas sobre la comunidad a la cual pertenece la persona atendida, reconociendo ampliamente todas las debilidades y fortalezas. Es importante formarse y estudiar constantemente para evitar estos estereotipos y prejuicios.
+            div(titulo="Evitar juicios prejuiciosos")
+              p.mb-0 Durante la prestación del servicio, evite la emisión de juicios basados en prejuicios o estereotipos que vulneren la imagen, valores y cultura de los pueblos, comunidades y población social y culturalmente diferenciada.
+            div(titulo="Reconocimiento de prácticas tradicionales")
+              p.mb-0 Para que la prestación del servicio sea objetiva, reconozca las prácticas tradicionales que han existido o existen en la comunidad a la que pertenece la persona en torno a la salud y así complementar estas.
+            div(titulo="Diálogo con grupos étnicos")
+              p.mb-0 Esté dispuesto a abrir espacios de diálogo con los individuos pertenecientes a grupos étnicos y sus comunidades para entender sus modos propios de vida y prácticas relacionadas con la salud.
+            div(titulo="Respeto a la privacidad y confidencialidad en la diversidad")
+              p.mb-0 Respete la confidencialidad de la información del individuo y favorezca espacios para su privacidad puesto que algunas de las barreras que tiene la población LGBTIQ+ perteneciente a grupos étnicos tiene relación con la invisibilización de su orientación sexual e identidad de género por asuntos de tipo cultural.
+      .col-lg-5.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/98.png', alt='')
+    img.mb-0(src='@/assets/curso/temas/18.svg', alt='')
+    p.mb-5(data-aos='fade-right') Otro de los aspectos importantes a tener en cuenta dentro del proceso de atención en salud a la población LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas, es el Enfoque de Curso de Vida. 
+    .tarjeta.p-5.mb-5(style="background-color: #2a3c52")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/24.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col-10.mb-3.mb-sm-0
+                h4: span.color-acento Diferencias entre ciclo vital y curso de vida
+                p.text-white Para entender y atender las directrices orientadas al cumplimiento del presente enfoque, es necesario comprender la diferencia entre las etapas del ciclo de vida y el curso de vida. Puede leer más sobre este tema en el documentos " Diferencias entre ciclo vital y curso de vida.". 
+              .col.mb-3.mb-sm-0
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  span Descargar 
+                  i.fas.fa-file-download
+    p.mb-5(data-aos='fade-right') Dentro del proceso de atención a las personas del sector LGBTIQ+ y con orientaciones sexuales e identidades de género diversas no hegemónicas, se deben tener en cuenta los siguientes elementos para aportar al enfoque de curso de vida:
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-lg-0.mb-3(data-aos="fade-left")
+        .acordion-modificado 
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acc rounded-0")
+            div(titulo="Garantizar la atención adecuada")
+              p.mb-0 Asegurar que la atención y el plan terapéutico sean acordes con el ciclo y curso de vida al cual pertenece la persona.
+            div(titulo="Ofrecer alternativas de tratamiento")
+              p.mb-0 Permitir el control de los factores de riesgo identificados para la etapa de ciclo de vida y de las características identificadas en la trayectoria, momentos significativos o sucesos vitales, ventana de oportunidad y efectos acumulativos.
+            div(titulo="Opciones educativas e intervenciones")
+              p.mb-0 Dar todas las opciones al paciente de asistir a actividades educativas individuales o colectivas y de intervención de factores de riesgo programadas por el grupo de apoyo de la entidad.
+            div(titulo="Valoración integral")
+              p.mb-0 Valorar de manera integral a la persona teniendo en cuenta su ciclo y curso de vida, así como su identidad de género y orientación sexual. Reconocer que la "familia social" puede ser crucial, especialmente debido a la discriminación y exclusión que algunas personas LGBTIQ+ pueden experimentar.
+            div(titulo="Identificar cambios en el desarrollo")
+              p.mb-0 Identificar los principales cambios en el desarrollo (físico, cognitivo, emocional, social).
+            div(titulo="Detección temprana de alteraciones")
+              p.mb-0 Detectar de forma temprana alteraciones que afecten negativamente la salud y el proceso de desarrollo.
+            
+      .col-lg-5.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/99.png', alt='')
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/100.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        .acordion-modificado 
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acc rounded-0")
+            div(titulo="Potenciar capacidades y habilidades")
+              p.mb-0 Identificar y potenciar capacidades, habilidades y prácticas para promover el cuidado de la salud.
+            div(titulo="Construcción del plan de cuidado")
+              p.mb-0 Construir concertadamente con el paciente el plan de cuidado primario acorde con su ciclo y curso de vida, y las necesidades expuestas en la consulta.
+            div(titulo="Consulta completa")
+              p.mb-0 Durante la consulta, indagar de manera completa los antecedentes familiares y personales; respetar la libertad de la persona de no hablar respecto a los antecedentes familiares y/o personales.
+            div(titulo="Indagar sobre riesgos y hábitos")
+              p.mb-0 Indagar sobre la presencia de factores de riesgo, prácticas y hábitos saludables. Incluir preguntas sobre consumo y hábitos alimentarios, actividad laboral, ejercicio de derechos sexuales y reproductivos, riesgos psicosociales para violencias, y capacidades y recursos personales y familiares que inciden en el cuidado de la salud.
+            div(titulo="Organización del plan de atención")
+              p.mb-0 Organizar todo el plan de atención acorde con lo identificado en la anamnesis y teniendo en cuenta el ciclo y curso de vida.
+            div(titulo="Activar ruta de atención")
+              p.mb-0 Activar la ruta de atención que corresponda con el curso de vida de la persona
+            div(titulo="Indicaciones terapéuticas y de tratamiento")
+              p.mb-0 Es esencial proporcionar las indicaciones terapéuticas y de tratamiento considerando el plan de beneficios o tecnologías complementarias que la persona requiera, según su diagnóstico. Además, es importante tener en cuenta la existencia de comorbilidades y condiciones asociadas a la edad para asegurar un manejo integral y adecuado.
+    p.mb-5(data-aos='fade-right') Activar la ruta de atención que corresponda con el curso de vida de la persona:      
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 1. 
+      span Rutas de atención 
+    .tabla-a.border-top-0.mb-5
+      table
+        thead(style="background-color: #3C1C74")
+          tr.text-center.text-white
+            th RUTA DE ATENCIÓN
+            th RIAS ANEXO
+        tbody
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Promoción y mantenimiento de la salud (obligatorio cumplimiento).
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Promocion mantenimiento salud
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Materno perinatal (obligatorio cumplimiento).
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Materno perinetal 
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Cardio-cerebro-vascular
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Cardio crerebro vascular 
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Cáncer
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Cáncer
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Alteraciones nutricionales
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Nutricional 
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Trastornos asociados al consumo de SPA
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS SPA
+          tr
+            td 
+              ul.lista-ul--color
+                li.d-flex
+                  i.fas.fa-heart
+                  p.mb-0 Enfermedades infecciosas
+            td 
+              a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Infecciosas 
+    p.mb-5(data-aos='fade-right') El Enfoque de Curso de Vida se entiende como el conjunto de trayectorias que tiene un individuo y su familia de acuerdo con los roles que desarrolla a lo largo de la vida (PDSP 2022-2031 / Res.2367 de 2023). Es así como la familia cobra importancia dentro del proceso de desarrollo y vivencias del individuo, dando vida al Enfoque de Salud Familiar y Comunitaria. Este enfoque se basa principalmente en reconocer a la familia como un grupo susceptible de cuidado, a quien se le debe garantizar la entrega de recomendaciones y herramientas dirigidas al autocuidado y la promoción de la salud. #[b(style="color: #0F5FFE ") Este enfoque tiene en cuenta principalmente los siguientes elementos:]
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #423755")
+          p.mb-0.text-white.text-center Incentiva los estilos de vida saludables.
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #423755")
+          p.mb-0.text-white.text-center Fomenta la responsabilidad familiar y comunitaria para mejorar las condiciones de salud.
+      .col-lg-4.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #423755")
+          p.mb-0.text-white.text-center Durante procesos agudos de enfermedad, este tipo de enfoque busca garantizar la atención en etapa temprana, evitando en todo caso el avance de la enfermedad a momentos de mayor daño y con tratamientos más complejos (Ministerio de Salud y Protección Social).
+    p.mb-5(data-aos='fade-right') Las recomendaciones que debe tener en cuenta el talento humano en salud para que el enfoque de salud familiar sea efectivo para las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas son las siguientes:     
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
+        .tarjeta.p-4(style="background-color: #3C1C74").mb-4
+          p.mb-0.text-white Durante la atención en salud, es crucial indagar a la persona sobre su red de apoyo familiar y comunitaria. Es importante reconocer que para algunas personas de los sectores sociales LGBTIQ+, la familia nuclear de origen no siempre representa un apoyo y aceptación. En este contexto, la familia social, que también proporciona cuidados para la salud, cobra mucha importancia.
+            br
+            |Identificar la posición o rol que ocupa la persona dentro de su familia, en caso de que cuente con ella.
+        p.mb-5(data-aos='fade-right') #[b(style="color: #0F5FFE ") Entregar a la persona recomendaciones sobre hábitos saludables para sí misma y para su familia, los cuales incluyen: ]
+      .col-lg-6.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/101.png', alt='')
+    .row.justify-content-center.mb-3
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Alimentación equilibrada
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Práctica habitual de ejercicio
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Mantenimiento de hábitos de higiene correctos
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Evitar hábitos nocivos como el consumo de tabaco, alcohol y otras drogas
+    .row.justify-content-center.mb-5
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Asegurar correctos momentos de descanso y sueño
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Realizar actividades de relajación y recreación en familia
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Sugerir que la familia asista a consultas para valoraciones de seguimiento y realización de exámenes de tamizaje acordes con la edad de los miembros
+      .col-lg-3.mb-lg-0.mb-3
+        .tarjeta.d-flex.align-items-center.p-5.h-100(style="background-color: #5F9EFC")
+          p.mb-0.text-white.text-center Sugerir actividades de promoción de la salud adecuadas al momento del ciclo de vida de cada uno de los integrantes del grupo familiar
+    p.mb-5(data-aos='fade-right') El entorno familiar y comunitario impacta significativamente en las condiciones de salud de las personas. Asimismo, es crucial considerar las condiciones del territorio donde vive y se desarrolla la persona dentro del proceso de atención integral en salud. 
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/102.png', alt='')
+      .col-lg-9(data-aos="fade-left")
+        .tarjeta.p-5(style="background-color: #2c3e50 ").mb-4
+          p.mb-0.text-white Es esencial conocer las características principales del Enfoque Territorial, que permite el reconocimiento de cada región o territorio en aspectos como la población, el espacio, y los aspectos socioeconómicos, sociales, ambientales e institucionales. Adicionalmente, este enfoque facilita la comprensión de las diferencias en las experiencias relacionadas con la orientación sexual e identidad de género en los entornos urbanos y rurales #[span.color-acento (Ministerio del Interior, 2018).]
+        p En el marco del Plan Decenal de Salud Pública 2022-2031, el Enfoque Territorial debe responder a las necesidades específicas de la comunidad, partiendo de las diferencias contextuales, territoriales e identitarias. En todo momento, se debe garantizar la calidad, cobertura, vinculación, participación, accesibilidad e inclusión #[b(style="color: #0F5FFE ") (Resolución 2367 de 2023).]
+          br
+          br
+          | #[b(style="color: #0F5FFE ") Recomendaciones a tener en cuenta por el talento humano en salud dentro del marco del enfoque territorial:]
+    .row.justify-content-center.mb-5
+      .col-lg-9.position-relative
+        .avatar
+          figure
+            img(src="@/assets/curso/temas/104.svg", alt="alt").img250
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/103.svg", alt="alt").img100
+            .col
+              p Durante el proceso de atención, considere las características del espacio y territorio reportados por la persona atendida. La cosmovisión proveniente del territorio que habita puede impactar la comprensión, aceptación y seguimiento de las recomendaciones dadas en su proceso de salud.
+        
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/temas/105.svg", alt="alt").img100
+            .col
+              p Al ofrecer recomendaciones, un plan de tratamiento y demás sugerencias en salud, debe tener en cuenta las necesidades, características y particularidades económicas, culturales y sociales del territorio al cual pertenece la persona del sector LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. Estas condiciones pueden afectar la adherencia a las recomendaciones y al plan de tratamiento, si así se requiere.
+    .tarjeta.p-5.mb-5(style="background-color: #2a3c52")
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/24.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col-10.mb-3.mb-sm-0
+                h4: span.color-acento Enfoque psicosocial y Enfoque de acción sin daño.
+                p.text-white Se deben considerar los últimos dos enfoques que también deben ser tenidos en cuenta durante el proceso de atención en salud a las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. 
+              .col.mb-3.mb-sm-0
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                  span Descargar 
+                  i.fas.fa-file-download
+
+    
 
 
-
-
-
-
-
-
-
+            
+            
+            
+            
 
 
 
