@@ -10,7 +10,7 @@
     .mn(style="background-color: #e9fcf6 ")
       .row.justify-content-center.align-items-center
         .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
-          p.mb-0 En la primera parte del curso, se describen barreras culturales que afectan el acceso efectivo a los servicios de salud, incluyendo términos y actitudes discriminatorias vinculadas a valores, creencias y supuestos. Entre estos conceptos se encuentran #[b(style='color: #0F5FFE') los sesgos, paradigmas, prejuicios, estereotipos y estigmas, que son factores clave en la discriminación.] Para entender mejor estos términos, se proporcionarán definiciones claras.      
+          p.mb-0 En la primera parte del curso, se describen barreras culturales que afectan el acceso efectivo a los servicios de salud, incluyendo términos y actitudes discriminatorias vinculadas a valores, creencias y supuestos. Entre estos conceptos se encuentran #[b(style='color: #0F5FFE') los Sesgos, paradigmas, prejuicio, estereotipos, estigmas, que son barreras conducentes a discriminación.] Para entender mejor estos términos, se proporcionarán definiciones claras.      
         .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/6.svg', alt='')
     .bg-1.mn
       .tarjeta.overflow-hidden.p-lg-0.p-3(style="background-color: #423755").d-flex.mb-5

@@ -3,12 +3,17 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 60%
+    right: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 25%
+    right: 25%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
     right: 30%
 
 
@@ -107,6 +112,16 @@
   background-repeat: no-repeat
   background-size: cover
   background-position: 0 0 
+.fondo-tema4
+  background-image: url(../assets/curso/temas/fondo-tema4.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0 
+.fondo-tema3
+  background-image: url(../assets/curso/temas/fondo-tema3.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: 0 0 
 
 
 span.color-acento
@@ -180,3 +195,23 @@ span.color-botones
   z-index: 1
   @media (max-width: 1000px)
     display: none
+.titulo-principal__numero, .titulo-principal__numero:before
+  background-color: #0F5FFE
+.titulo-principal__numero span
+  color: white
+.slyder__btn
+  border-radius: 5px
+  background-color: transparent
+  border: 3px solid #3C1C74
+  i
+    color: #3C1C74
+.slyder__btn:hover 
+  border-radius: 5px
+  background-color: #3C1C74
+  i
+    color: white
+.contenido__tarjeta 
+  height: 100%
+.container
+  .row
+    justify-content: center

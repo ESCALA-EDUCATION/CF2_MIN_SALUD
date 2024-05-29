@@ -98,7 +98,7 @@
       .bg-2-2.p-4.mb-5
         .row.justify-content-center.mb-5
           .col-lg-8(data-aos="zoom-in"): img(src='@/assets/curso/temas/28.svg', alt='')
-      p.mb-5(data-aos='fade-right') Comprender en profundidad las características de esta clasificación es crucial para adoptar de manera objetiva los enfoques que se revisarán en este componente. Esto permitirá ajustar o modificar las prácticas y comportamientos en la atención sanitaria que no estén alineados con la garantía de derechos, dentro del marco de la diversidad de género y orientación sexual. 
+      p.mb-5(data-aos='fade-right') Conocer a profundidad las características de esta clasificación, permite apropiar de una manera más objetiva los enfoques que serán revisados en el presente componente; y a partir de los cuales se deben ajustar o modificar los comportamientos y prácticas en la atención en salud que no correspondan con la garantía de derechos, en el marco de la diversidad de género y orientación sexual.  
       .mn.py-lg-0.mb-5(style="background-color: #423755 ")
         .row.justify-content-center.align-items-center
           .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/29.svg', alt='') 
