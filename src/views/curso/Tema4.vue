@@ -340,7 +340,28 @@
               .text-center
                 h5.mb-4 Objetivo de atención en salud
                 p.mb-0 Relacionado con la promoción y garantía del ejercicio de los derechos económicos, sociales y culturales. Enfatiza en la igualdad de acceso y no discriminación en servicios como salud, educación, trabajo, vivienda, recreación, deporte y cultura para personas LGBTI, adoptando medidas técnicas y económicas necesarias.
-      img.mb-5(src='@/assets/curso/temas/18.svg', alt='')
+      
+      
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 3
+              h3 Integración de la diversidad
+              p.mb-4 Fomentar la comprensión de los principios de inclusión y respeto hacia las orientaciones sexuales e identidades de género diversas en el ámbito de la salud.
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Selección múltiple.
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act3/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
       p.mb-5(data-aos='fade-right') Desde este enfoque, el personal de salud debe desarrollar acciones y mecanismos afirmativos que garanticen una atención con equidad independiente de la Orientación Sexual e Identidad de Género. Para lo anterior, presentamos algunas acciones positivas para tener en cuenta: 
       TabsC.color-acento-botones.mb-5
         .p-5.py-md-5(titulo="Intimidad" style="background-color:#E8F0FF; margin-top: -15px")
@@ -608,7 +629,27 @@
               div
                 h4(style="color: #0F5FFE ").mb-5 10. No aplica
                 p.mb-5 Tener en cuenta protocolos de antidiscriminación.
-      img.mb-5(src='@/assets/curso/temas/18.svg', alt='')
+
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 4
+              h3 Abordajes inclusivos en salud para la comunidad LGTBIQ+
+              p.mb-4 Fomentar una comprensión crítica sobre cómo los enfoques diferenciados pueden mejorar significativamente el acceso y la calidad de la atención médica para individuos con orientaciones sexuales e identidades de género diversas. 
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Cuestionario
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act4/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
       p.mb-5(data-aos='fade-right') Es relevante revisar el #[b(style="color: #0F5FFE ") Enfoque de Género], entendiéndose el género como una construcción social que ha ayudado a comprender y dar explicación a todas las desigualdades existentes en la sociedad en lo que respecta a hombres y mujeres.
         br
         |Como manifiesta Raube Isabel en el documento "Género y Poder": 
@@ -684,7 +725,28 @@
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
                     span Descargar 
                     i.fas.fa-file-download
-      img.mb-0(src='@/assets/curso/temas/18.svg', alt='')
+
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 5
+              h3 Unidos por la diversidad 
+              p.mb-4 Reconocer el enfoque de igualdad de género y cómo este se aplica a las personas LGBTIQ+ y a aquellos con orientaciones sexuales e identidades de género no hegemónicas.
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Arrastrar y soltar.
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act5/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
+
       .mn.py-lg-0.mb-5(style="background-color: #A7F7DD")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4.col-7: img(src='@/assets/curso/temas/83.svg', alt='')
@@ -734,7 +796,30 @@
               div(titulo="Respeto a la privacidad y confidencialidad en la diversidad")
                 p.mb-0 Respete la confidencialidad de la información del individuo y favorezca espacios para su privacidad puesto que algunas de las barreras que tiene la población LGBTIQ+ perteneciente a grupos étnicos tiene relación con la invisibilización de su orientación sexual e identidad de género por asuntos de tipo cultural.
         .col-lg-5.col-7(data-aos="fade-right"): img(src='@/assets/curso/temas/98.png', alt='')
-      img.mb-0(src='@/assets/curso/temas/18.svg', alt='')
+
+
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 6
+              h3 Enfoque Étnico Diferencial
+              p.mb-4 Reconocer la importancia de respetar y valorar las diferencias culturales y étnicas dentro de la sociedad.
+
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Arrastrar y soltar.
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act6/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
+
       p.mb-5(data-aos='fade-right') Otro de los aspectos importantes a tener en cuenta dentro del proceso de atención en salud a la población LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas, es el Enfoque de Curso de Vida. 
       .tarjeta.p-5.mb-5(style="background-color: #2a3c52")
           .row.justify-content-around.align-items-center
@@ -945,6 +1030,25 @@
                     i.fas.fa-file-download
 
     
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 7
+              h3 Evaluación de Enfoques de Atención en Salud para la Comunidad LGBTIQ+
+              p.mb-4 Analizar y aplicar diferentes enfoques de atención en salud para abordar adecuadamente las necesidades y realidades de la comunidad LGBTIQ+.
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0 Cuestionario
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act7/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
 
 
             

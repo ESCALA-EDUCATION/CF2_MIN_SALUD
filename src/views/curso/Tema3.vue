@@ -73,7 +73,30 @@
                 img(src='@/assets/curso/temas/39.svg' alt='AvatarTop')
             h5.text-center Interés superior del niño, niña y adolescente
             p.text-center En medio de la atención integral de la niña, el niño o debe prevalecer el interés suyo y sus derechos. 
-      img(src='@/assets/curso/temas/18.svg', alt='').mb-5
+
+
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 2
+              h3 Principios fundamentales
+              p.mb-4 Desarrollar una comprensión de la importancia de cada principio en la promoción y protección de la dignidad humana.
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Completar.
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act2/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
+
+
       p.mb-5(data-aos='fade-right') Anclado a los principios, se suman los enfoques expuestos en la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTIQ+      y de personas con orientaciones sexuales e identidades de género diversas.
       .mn.bg-3-1.py-lg-0.mb-5(style="background-color: #423755 ")
         .row.justify-content-center.align-items-center

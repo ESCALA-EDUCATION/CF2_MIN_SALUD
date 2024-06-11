@@ -113,7 +113,28 @@
         .row.justify-content-center.mb-5
           .col-lg-7.col-9.mb-lg-0.mb-1(data-aos="fade-right"): img.m-5(src='@/assets/curso/temas/17.svg', alt='')
           .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img.m-5.d-none.d-lg-block(src='@/assets/curso/temas/16.svg', alt='')
-      img.mb-5(src='@/assets/curso/temas/18.svg', alt='')
+      
+      .bg-actividad-full.mn.mb-5
+        .tarjeta.p-4.mb-0
+          .row.justify-content-center.align-items-center.align-items-lg-stretch
+            .col-6.col-md-4.col-lg-3.mb-md-0
+              .tarjeta.h-100.d-flex.align-items-center.p-4
+                figure
+                  img(src="@/assets/curso/icon_actividad2.svg", alt="", style="max-width: 221px")
+            .col-12.col-md-8.col-lg-9
+              h2.txt-color-primario Actividad didáctica 1
+              h3 Estigmas y estereotipos en la sociedad
+              p.mb-4 Fomentar una comprensión sobre conceptos críticos como sesgos, paradigmas, prejuicios y estereotipos, y su impacto en la percepción social hacia individuos y grupos.
+              .tarjeta.bg-white.p-3
+                .row.justify-content-around.align-items-center
+                  .col-sm.mb-3.mb-sm-0
+                    p.fw-bold.mb-0  Relacionar conceptos. 
+                  .col-auto
+                    a.boton.boton--b(:href="obtenerLink('/actividades/act1/story.html')" target="_blank")
+                      span Realizar
+                      i.fas.fa-puzzle-piece
+
+
       p.mb-5(data-aos='fade-right') El talento humano en salud debe sensibilizarse frente a la presencia de estigmas, estereotipos, prejuicios, paradigmas y sesgos hacia las personas LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. Esto con el fin de adoptar una posición neutral, serena y enfocada en brindar atención basada en el respeto y cero discriminaciones:
       .mn.py-lg-0(style="background-color: #e9fcf6 ").mb-5
         .row.justify-content-center.align-items-center.mb-5
