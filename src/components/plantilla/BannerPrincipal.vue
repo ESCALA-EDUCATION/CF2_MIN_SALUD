@@ -2,7 +2,7 @@
   <div class="container banner-principal">
     <div class="row banner-principal__row">
       <div
-        class="col-lg-7 col-xxl-5 ps-4 ps-sm-5 py-4 py-sm-5 banner-principal__info"
+        class="col-lg-7 col-xxl-7 ps-4 ps-sm-5 py-4 py-sm-5 banner-principal__info"
       >
         <div class="banner-principal__componente">
           <h1 class="mb-0" v-html="globalData.componenteFormativo"></h1>

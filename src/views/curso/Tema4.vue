@@ -1010,7 +1010,7 @@
                     i.fas.fa-heart
                     p.mb-0 Promoción y mantenimiento de la salud (obligatorio cumplimiento).
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Promocion mantenimiento salud
+                a(:href="obtenerLink('downloads/rias-promocion-mantenimiento-salud.zip')" target="_blank" type="application/pdf") RIAS Promocion mantenimiento salud
             tr
               td 
                 ul.lista-ul--color
@@ -1018,7 +1018,7 @@
                     i.fas.fa-heart
                     p.mb-0 Materno perinatal (obligatorio cumplimiento).
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Materno perinetal 
+                a(:href="obtenerLink('downloads/rias-materno-perinatal.zip')" target="_blank" type="application/pdf") RIAS Materno perinetal 
             tr
               td 
                 ul.lista-ul--color
@@ -1026,7 +1026,7 @@
                     i.fas.fa-heart
                     p.mb-0 Cardio-cerebro-vascular
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Cardio crerebro vascular 
+                a(:href="obtenerLink('downloads/rias-cardio-cerebro-vascular.zip')" target="_blank" type="application/pdf") RIAS Cardio crerebro vascular 
             tr
               td 
                 ul.lista-ul--color
@@ -1034,7 +1034,7 @@
                     i.fas.fa-heart
                     p.mb-0 Cáncer
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Cáncer
+                a(:href="obtenerLink('downloads/rias-cancer.zip')" target="_blank" type="application/pdf") RIAS Cáncer
             tr
               td 
                 ul.lista-ul--color
@@ -1042,7 +1042,7 @@
                     i.fas.fa-heart
                     p.mb-0 Alteraciones nutricionales
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Nutricional 
+                a(:href="obtenerLink('downloads/rias-nutricional.zip')" target="_blank" type="application/pdf") RIAS Nutricional 
             tr
               td 
                 ul.lista-ul--color
@@ -1050,7 +1050,7 @@
                     i.fas.fa-heart
                     p.mb-0 Trastornos asociados al consumo de SPA
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS SPA
+                a(:href="obtenerLink('downloads/rias-spa.zip')" target="_blank" type="application/pdf") RIAS SPA
             tr
               td 
                 ul.lista-ul--color
@@ -1058,7 +1058,7 @@
                     i.fas.fa-heart
                     p.mb-0 Enfermedades infecciosas
               td 
-                a(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf") RIAS Infecciosas 
+                a(:href="obtenerLink('downloads/rias-infecciosas.zip')" target="_blank" type="application/pdf") RIAS Infecciosas 
       p.mb-5(data-aos='fade-right') El Enfoque de Curso de Vida se entiende como el conjunto de trayectorias que tiene un individuo y su familia de acuerdo con los roles que desarrolla a lo largo de la vida (PDSP 2022-2031 / Res.2367 de 2023). Es así como la familia cobra importancia dentro del proceso de desarrollo y vivencias del individuo, dando vida al Enfoque de Salud Familiar y Comunitaria. Este enfoque se basa principalmente en reconocer a la familia como un grupo susceptible de cuidado, a quien se le debe garantizar la entrega de recomendaciones y herramientas dirigidas al autocuidado y la promoción de la salud. #[b(style="color: #0F5FFE ") Este enfoque tiene en cuenta principalmente los siguientes elementos:]
       .row.justify-content-center.mb-5
         .col-lg-4.mb-lg-0.mb-3

@@ -27,7 +27,7 @@
     
       
   
-  </template>
+</template>
 <script>
 import BannerInterno from '../components/plantilla/BannerInterno'
 import Footer from '../components/plantilla/Footer'

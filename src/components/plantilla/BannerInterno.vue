@@ -1,7 +1,7 @@
 <template>
   <div
     class="container-fluid banner-interno"
-    :style="{ 'background-image': `url(${globalData.fondoBannerPrincipal})` }"
+    :style="{ 'background-image': `url(${globalData.fondoBannerInterno})` }"
   />
 </template>
 

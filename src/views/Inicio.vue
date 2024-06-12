@@ -13,11 +13,11 @@
 
     <div class="contenido">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
           <div
             v-for="item of desarrolloContenidosData"
             :key="'desarrollo-' + item.nombreRuta"
-            class="col-sm-6 col-md-4 col-lg-3 mb-4"
+            class="col-md-6 col-xl-3 mb-4"
           >
             <router-link :to="{ name: item.nombreRuta }">
               <div class="contenido__tarjeta tarjeta shadow">
