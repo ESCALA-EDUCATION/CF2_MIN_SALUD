@@ -6,7 +6,10 @@
       >
         <div class="row align-items-center">
           <div class="col-auto">
-            <img class="header__logo" src="@/assets/template/minsalud.jpg" />
+            <img
+              class="header__logo"
+              src="@/assets/template/minsalud_new.png"
+            />
           </div>
           <div class="col-sm">
             <div v-if="!isInicio" class="header__componente-formativo py-2">

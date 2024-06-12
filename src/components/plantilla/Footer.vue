@@ -5,7 +5,7 @@
   >
     <div class="d-flex align-items-center justify-content-center">
       <div class="logo-container">
-        <img class="logo" src="@/assets/template/minsalud.jpg" />
+        <img class="logo" src="@/assets/template/minsalud_new.png" />
         <div class="text-center">Recursos Educativos Digitales</div>
       </div>
     </div>

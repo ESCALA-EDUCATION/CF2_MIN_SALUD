@@ -32,6 +32,7 @@ export default {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
         titulo: 'Introducción',
+        subTitulo: 'Introducción',
         img: require('@/assets/curso/p1.png'),
         desarrolloContenidos: true,
       },
@@ -64,7 +65,8 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        icono: 'fas fa-info-circle',
+        icono: 'far fa-file-alt',
+        numero: '4',
         titulo: 'Enfoques: concepto, origen, tipos, alcance, características',
         subTitulo:
           '4. Enfoques: concepto, origen, tipos, alcance, características',
@@ -125,132 +127,199 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Constitución política de Colombia. (1991). Título II, de Los Derechos Sociales, Económicos y Culturales Artículos 48 y 49. ',
+      link: 'https://pdba.georgetown.edu/Constitutions/Colombia/colombia91.pdf',
+    },
+    {
+      referencia:
+        'Decreto 762 de 2018. Por el cual se adiciona un capítulo al Título 4 a la Parte 4, del Libro 2, del Decreto 1066 de 2015, Único Reglamentario del Sector Interior, para adoptar la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTI y de personas con orientaciones sexuales e identidades de género diversas. 07 de mayo 2018. D.O. 50.586.',
+    },
+    {
+      referencia:
+        'Decreto 780 de 2016 Sector Salud y Protección Social. Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. 06 mayo 2016 con última actualización el 05 agosto de 2022.',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (2023). Informe de los objetivos de desarrollo sostenible, edición especial, “Por un plan de rescate para las personas y el planeta”. ',
+      link: 'https://www.un.org/sustainabledevelopment/es/development-agenda/',
+    },
+    {
+      referencia:
+        'Ley 100 de 1993. Por la cual se crea el sistema de seguridad social integral y se dictan otras disposiciones. 23 diciembre de 1993, D.O. 41.148.',
+    },
+    {
+      referencia:
+        'Ley 1122 de 2007. Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. 09 enero 2007. D.O. 46.506. ',
+    },
+    {
+      referencia:
+        'Ley 1438 de 2011. Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. 19 enero 2011. D.O. 47957.',
+    },
+    {
+      referencia:
+        'Ley Estatutaria 1751 de 2015, por medio de la cual se consagra el derecho fundamental a la salud, dando lineamientos al Ministerio de Salud y Protección Social para realizar reformas significativas al sistema general de seguridad social en salud. 16 de febrero de 2015. D.O. 49427.',
+    },
+    {
+      referencia:
+        'Fondo de Población de las Naciones Unidas - UNFPA (2019). Lineamientos de Atención en los Servicios de Salud que Consideran el Enfoque Diferencial, de Género y No Discriminación para Personas LGBTI. – Colombia.',
+    },
+    {
+      referencia:
+        'Fondo de Población de las Naciones Unidas - UNFPA. (2010). Política Nacional de Derechos Sexuales y Derechos Reproductivos –PNSDSDR. Ministerio de Salud y Protección Social, Profamilia, Organización Internacional para las Migraciones.',
+    },
+    {
+      referencia:
+        'Resolución 2138 de 2023. Por la cual se adoptan los lineamientos de transversalización del enfoque de género en el sector salud para el cierre de brechas por razones de sexo, género, identidad de género y orientación sexual. ',
+    },
+    {
+      referencia:
+        'Resolución 2367 de 2023, Por la cual se modifican los artículos 1, 2 y 3 de la Resolución 1035 de 2022 y los capítulos 3, 4, 5, 6, 8, 9, 10 y 11 del anexo técnico "Plan Decenal de Salud Pública 2022-2031".',
+    },
+    {
+      referencia:
+        'Resolución 429 de 2016. Por medio de la cual se adopta la Política de Atención Integral en Salud.  D.O. 49.794.',
+    },
+    {
+      referencia:
+        'Organización Panamericana de la Salud y Organización Mundial de la Salud. (2013).  Resolución CD52.R6, Abordar las causas de las disparidades en cuanto al acceso y la utilización de los servicios de salud por parte de las personas lesbianas, homosexuales, bisexuales y TRANS, 52° Consejo Directivo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://iris.paho.org/bitstream/handle/10665.2/4434/CD52-R6-esp.pdf?sequence=2&isAllowed=y',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Rocha-Buelvas, Anderson. (2015,). El riesgo suicida y los significados de las minorías sexuales: un nuevo reto para la salud pública. rev.fac.med. [online]. vol.63, n.3, pp.537-544. ISSN 0120-0011.',
+      link: 'https://doi.org/10.15446/revfacmed.v63n3.43219',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Autonomía progresiva:',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es el principio que habilita la toma de decisiones por si solas de las niñas, niños y adolescentes.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Arquetipo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'modelo que sirve como línea para imitarlo, reproducirlo o copiarlo. Es algo que sirve como ejemplo de perfección de algo. ',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Cosmovisión',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'es el grupo de opiniones y creencias que conforman la imagen o concepto general del mundo que tiene una persona, época o cultura, partiendo de la interpretación de su propia naturaleza y la de todo lo existente.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Cultura de seguridad',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'es el producto de valores, actitudes, percepciones, competencias y patrones de comportamiento desde lo individual y grupal, lo cual ayuda a determinar el compromiso, el estilo y el desempeño de una institución.',
     },
     {
-      termino: 'Moda',
+      termino: 'Diagnóstico',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'en medicina, el diagnóstico o propedéutica clínica es el procedimiento por el cual se identifica una enfermedad, entidad nosológica, síndrome, o cualquier condición de salud- enfermedad (el "estado de salud" también se diagnostica).',
     },
     {
-      termino: 'Diseña',
+      termino: 'Igualdad',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'es el acceso a la Seguridad Social en salud que garantiza no incurrir en discriminación a las personas residentes en el territorio colombiano; por razones de cultura, sexo, raza, origen nacionalidad, orientación sexual, religión, edad o capacidad económica. ',
     },
     {
-      termino: 'DIseño',
+      termino: 'ITS / Infección de Transmisión sexual',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'son las infecciones que pasan de una persona a otra por medio de una relación sexual (vaginal, anal u oral) y pueden producir enfermedades.',
     },
     {
-      termino: 'Tipología',
+      termino: 'ETS /  Enfermedades de transmisión sexual',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'son conocidas como infecciones de transmisión sexual (ITS). Las ETS son infecciones que se propagan de una persona a otra por medio de la actividad sexual, incluso por otras vías como anal, vaginal u oral. ',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Participación Social',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'se refiere a la intervención de la comunidad en la organización, control, gestión y fiscalización de las instituciones y del sistema en conjunto.',
     },
     {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'Programático',
+      significado: 'perteneciente o relativo al programa. ',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Prestador',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'corresponde a cualquier persona natural o jurídica, establecimiento o institución, que se encuentre autorizada para otorgar prestaciones de salud, tales como: consulta, consultorio, hospital, clínica, centro médico, centro de diagnóstico terapéutico, centro de referencia de salud, laboratorio y otros de cualquier naturaleza, incluidas ambulancias y otros vehículos adaptados para atención extrahospitalaria. ',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Prevención',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es el enfoque de orientado a la precaución que se aplica a la gestión del riesgo, en el marco de la evaluación de los procedimientos y la prestación de los servicios de salud.',
+    },
+    {
+      termino: 'Observatorio Nacional de Salud',
+      significado:
+        'es el responsable de hacer el monitoreo a los indicadores de salud pública para cada municipio y departamento, lo cual permite tener información desagregada de resultados por Asegurador, Prestador y Ente Territorial.',
+    },
+    {
+      termino: 'Transectorial en salud',
+      significado:
+        'es el resultado de la interacción de las condiciones biológicas, psíquicas, sociales y culturales del individuo, con el entorno y la sociedad.',
+    },
+    {
+      termino: 'VIH / (virus de la inmunodeficiencia humana)',
+      significado: 'es un virus que ataca el sistema inmunitario del cuerpo.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Resolución 2367, Por la cual se modifican los artículos 1, 2 y 3 de la Resolución 1035 de 2022 y los capítulos 3, 4, 5, 6, 8, 9, 10 y 11 del anexo técnico "Plan Decenal de Salud Pública 2022-2031". (29 diciembre de 2023).',
+      tipo: 'Norma',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjur//normas/Norma1.jsp?i=152662&dt=S',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Resolución 2138, Por la cual se adoptan los lineamientos de transversalización del enfoque de género en el sector salud para el cierre de brechas por razones de sexo, género, identidad de género y orientación sexual. (19 diciembre de 2023).',
+      tipo: 'Norma',
+      link:
+        'https://www.minsalud.gov.co/Paginas/MinSalud-fortalece-medidas-con-enfoque-de-genero-en-entidades-territoriales-de-salud.aspx',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Decreto 762 de 2018. Por el cual se adiciona un capítulo al Título 4 a la Parte 4, del Libro 2, del Decreto 1066 de 2015, Único Reglamentario del Sector Interior, para adoptar la Política Pública para la garantía del ejercicio efectivo de los derechos de las personas que hacen parte de los sectores sociales LGBTI y de personas con orientaciones sexuales e identidades de género diversas. 07 de mayo 2018. D.O. 50.586.',
+      tipo: 'Norma',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=86303',
+    },
+    {
+      tema:
+        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
+      referencia:
+        'Política Nacional de Derechos Sexuales y Derechos Reproductivos –PNSDSDR. Ministerio de Salud y Protección Social, Profamilia, Organización Internacional para las Migraciones – OIM, Fondo de Población de las Naciones Unidas – UNFPA. ',
+      tipo: 'Política',
+      link:
+        'https://consensomontevideo.cepal.org/es/instrumento/politica-nacional-de-sexualidad-derechos-sexuales-y-derechos-reproductivos-pnsdsdr',
+    },
+    {
+      tema:
+        '2.2 Normativa nacional establecida para la atención a las personas que componen los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas.',
+      referencia:
+        'Documento CONPES D.C. 16 de 2021 Consejo Distrital de Política Económica y Social del Distrito Capital - CONPES D.C. y PPLGBTI Decreto 762 de 2018',
+      tipo: 'Documento',
+      link:
+        'https://sisjur.bogotajuridica.gov.co/sisjur/normas/Norma1.jsp?i=120224',
+    },
+    {
+      tema:
+        '5. Orientaciones técnicas para las personas que componen los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegémonicas. ',
+      referencia:
+        'Lineamientos de Atención en los Servicios de Salud que Consideran el Enfoque Diferencial, de Género y No Discriminación para Personas LGBTI. Fondo de Población de las Naciones Unidas - UNFPA – Colombia. 1 octubre de 2019. ',
+      tipo: 'Documento',
+      link:
+        'https://colombia.unfpa.org/es/publications/lineamientos-atencion-servicios-salud-enfoque-genero',
     },
   ],
   creditos: [

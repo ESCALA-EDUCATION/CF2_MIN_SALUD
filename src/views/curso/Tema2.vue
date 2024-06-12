@@ -9,7 +9,7 @@
       h1 Diversidad: conceptos
     .bg-2.mn
       .row.justify-content-center.mb-5
-        .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21.png', alt='')
+        .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/21b.png', alt='')
         .col-lg-8(data-aos="fade-left")
           p Teniendo en cuenta que en el componente 1 se revisaron los conceptos más importantes para comprender lo relacionado con género, sexo, expresión de género, identidad de género y orientación sexual, pasamos a ampliar la información relacionada con la diversidad, la cual se refiere a las distintas formas de expresión, ya sea desde lo étnico, cultural o sexual; por tanto, está presente en todos los aspectos de la vida, gestando acuerdos y desacuerdos a nivel social. En el contexto del presente curso, se abordará la diversidad sexual y de género, la cual nace con el fin de promover la inclusión y la igualdad, generando tolerancia y empatía.
           .tarjeta.p-4(style="background-color: #423755 ").mb-5
@@ -20,7 +20,7 @@
       p.mb-5(data-aos='fade-right') La diversidad sexual y de género se refiere a todas las posibilidades que tienen las personas de asumir, expresar y vivir la sexualidad en razón de su identidad, expresión de género y orientación sexual.
       .mn.py-lg-0.mb-5(style="background-color: #3c1c74 ")
         .row.justify-content-center.align-items-center
-          .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/22.svg', alt='') 
+          .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/22b.svg', alt='') 
           .col-lg-7(data-aos="fade-left")
             h4.mb-5
               span.color-acento ¿Sabías que?
@@ -41,14 +41,14 @@
                   span.color-acento Resolución 2138 de 2023 del Ministerio de Salud y Protección Social
                 p.text-white Para tal reconocimiento, se abordaron en el componente 1 todas las descripciones relacionadas con género, sexo, expresión de género, identidad de género y orientación sexual, acorde con lo expuesto en la Resolución 2138 de 2023 del Ministerio de Salud y Protección Social, por la cual se adoptan los lineamientos de transversalización del enfoque de género. Sin embargo, en el presente componente, se hace alusión a las mismas de forma resumida, con el objetivo de afianzar dicho conocimiento.
               .col.mb-3.mb-sm-0
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                a.boton.color-acento-botones(href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B3n%20No%202138%20de%202023.pdf" target="_blank" type="application/pdf")
                   span Descargar 
                   i.fas.fa-file-download
       .tarjeta.p-5.mb-5(style="background-color: #423755")
         p.mb-0.text-white  En el marco de la adopción de los lineamientos de transversalización del enfoque de género, se define la identidad de género como #[span.color-acento.fw-normal “vivencia individual y personal, independiente del sexo con el que nació. Incluye la vivencia personal del cuerpo, que puede o no involucrar transformaciones corporales escogidas libremente”].
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
-          p #[b(style="color: #0F5FFE ") La orientación sexual] se entiende como #[b(style="color: #0F5FFE ") “la atracción sexual, afectiva y erótica que una persona siente hacia otras de su mismo género, del género opuesto, de ambos géneros o hacia ninguna persona”], permitiendo relaciones afectivas y sexuales con estas personas. Igualmente, se incorpora la definición de sexo, que corresponde a las características genéticas, endocrinas y morfológicas, e incluye las categorías de hombre, mujer e intersexualidad. 
+          p #[b(style="color: #0F5FFE ") La orientación sexual] se entiende como #[b(style="color: #0F5FFE ") “la atracción sexual, afectiva y erótica que una persona siente hacia otras de su mismo género, del género opuesto, de ambos géneros o hacia ninguna persona”], permitiendo relaciones afectivas y sexuales con estas personas. De igual manera, se incorpora la definición de sexo, la cual corresponde con las características genéticas, endocrinas y morfológicas y cuenta con las categorías hombre, mujer y la Intersexualidad, la cual corresponde con una variación orgánica bajo la cual el desarrollo del sexo cromosómico, gonadal o anatómico no coincide con los dos sexos que tradicionalmente se asignan.      
           .tarjeta.p-5.mb-5(style="background-color: #423755")
             .row.justify-content-center.align-items-center
               .col-lg-2.mb-lg-0.mb-3.col-7: img(src='@/assets/curso/temas/25.svg', alt='')
@@ -60,50 +60,42 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4.col-7: img(src='@/assets/curso/temas/27.svg', alt='')
           .col-lg-8
-            .tarjeta.overflow-hidden(style="background-color: #bad1ff ").mb-3
-              .row.justify-content-center
-                .col-lg-4
-                  .p-4.h-100.d-flex(style="background-color: #5b92fe ")
-                    h4.text-white.m-auto Masculino, femenino, cisgénero, transgénero
-                .col-lg-8.d-flex
-                  .p-4.d-flex
-                    p.m-auto Transgénero: transexuales, travestis y transformistas.
-            .tarjeta.overflow-hidden(style="background-color: #bad1ff ").mb-3
-              .row.justify-content-center
-                .col-lg-4
-                  .p-4.h-100.d-flex(style="background-color: #5b92fe ")
-                    h4.text-white.m-auto Género fluido
-                .col-lg-8.d-flex
-                  .p-4.d-flex
-                    p.m-auto La identidad de género es dinámica, la cual puede ser ubicada desde lo masculino un tiempo y después desde lo femenino o viceversa.
-            .tarjeta.overflow-hidden(style="background-color: #bad1ff ").mb-3
-              .row.justify-content-center
-                .col-lg-4
-                  .p-4.h-100.d-flex(style="background-color: #5b92fe ")
-                    h4.text-white.m-auto Queer
-                .col-lg-8.d-flex
-                  .p-4.d-flex
-                    p.m-auto Identidad de género diferente a cisgénero.
-            .tarjeta.overflow-hidden(style="background-color: #bad1ff ").mb-3
-              .row.justify-content-center
-                .col-lg-4
-                  .p-4.h-100.d-flex(style="background-color: #5b92fe ")
-                    h4.text-white.m-auto +
-                .col-lg-8.d-flex
-                  .p-4.d-flex
-                    p.m-auto Otras identidades de género.
+            .tarjeta.overflow-hidden(style="background-color: #D7E4FE ").mb-3
+              .p-4 
+                p.mb-0 Masculino, femenino, cisgénero, transgénero
+
+            .tarjeta.overflow-hidden(style="background-color: #D7E4FE ").mb-3
+              .p-4
+                h5.mb-0 Transgénero
+                p.mb-0 Transexuales, travestis y transformistas.
+
+            .tarjeta.overflow-hidden(style="background-color: #D7E4FE ").mb-3
+              .p-4
+                h5.mb-0 Género fluido
+                p.mb-0 La identidad de género es dinámica, la cual puede ser ubicada desde lo masculino un tiempo y después desde lo femenino o viceversa.
+
+            .tarjeta.overflow-hidden(style="background-color: #D7E4FE ").mb-3
+              .p-4
+                h5.mb-0 Queer
+                p.mb-0 Identidad de género diferente a cisgénero.
+
+            .tarjeta.overflow-hidden(style="background-color: #D7E4FE ").mb-3
+              .p-4
+                h5.mb-0 +
+                p.mb-0 Otras identidades de género.
+
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 2. 
         span Resumen de la clasificación de Orientaciones sexuales. 
       .bg-2-2.p-4.mb-5
         .row.justify-content-center.mb-5
           .col-lg-8(data-aos="zoom-in"): img(src='@/assets/curso/temas/28.svg', alt='')
-      p.mb-5(data-aos='fade-right') Conocer a profundidad las características de esta clasificación, permite apropiar de una manera más objetiva los enfoques que serán revisados en el presente componente; y a partir de los cuales se deben ajustar o modificar los comportamientos y prácticas en la atención en salud que no correspondan con la garantía de derechos, en el marco de la diversidad de género y orientación sexual.  
+      p.mb-5(data-aos='fade-right') Conocer a profundidad las características de esta clasificación, permite apropiar de una manera más objetiva los enfoques que serán revisados en el presente componente; y a partir de los cuales se deben ajustar o modificar los comportamientos y prácticas en la atención en salud que no correspondan con la garantía de derechos, en el marco de la diversidad de género y orientación sexual. 
       .mn.py-lg-0.mb-5(style="background-color: #423755 ")
         .row.justify-content-center.align-items-center
-          .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/29.svg', alt='') 
+          .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/29b.svg', alt='') 
           .col-lg-7(data-aos="fade-left")
-            p.text-white Este fortalecimiento en la garantía de derechos se expandirá en el Componente 3, donde se revisarán las pautas de atención hacia la población LGBTIQ+ y aquellas con orientaciones sexuales e identidades de género no hegemónicas. Se tomarán en cuenta el modelo de atención afirmativo, la humanización de la atención y las recomendaciones para un enfoque de derechos y no discriminación en la atención.
+            p.text-white Este afianzamiento de la garantía de derechos en el marco de la diversidad de género y orientación sexual, se podrá ampliar en el componente 3 cuando sean revisadas las pautas de atención hacia la población LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas, teniendo en cuenta el modelo de atención afirmativo, la humanización en la atención y las recomendaciones para la atención con enfoque de derechos y la no discriminación.
 
 </template>
 

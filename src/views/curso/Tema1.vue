@@ -11,7 +11,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
           p.mb-0 En la primera parte del curso, se describen barreras culturales que afectan el acceso efectivo a los servicios de salud, incluyendo términos y actitudes discriminatorias vinculadas a valores, creencias y supuestos. Entre estos conceptos se encuentran #[b(style='color: #0F5FFE') los Sesgos, paradigmas, prejuicio, estereotipos, estigmas, que son barreras conducentes a discriminación.] Para entender mejor estos términos, se proporcionarán definiciones claras.      
-        .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/6.svg', alt='')
+        .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/6b.svg', alt='')
     .bg-1.mn
       .tarjeta.overflow-hidden.p-lg-0.p-3(style="background-color: #423755").d-flex.mb-5
         .row.justify-content-center
@@ -20,38 +20,38 @@
           .col-lg-8
             .p-4.text-white
               h4 El sesgo 
-              p.mb-0 Se define como una predisposición influenciada por experiencias previas, que actúa como un atajo mental al evaluar situaciones y puede distorsionar la percepción de los hechos, incluso de manera inconsciente. Los sesgos pueden ser explícitos o implícitos y estar basados en género, etnia, raza, edad o lugar de origen, entre otros
+              p.mb-0 Es definido  como la orientación o tendencia previamente establecida por el aprendizaje a lo largo de la vida hacia la toma de acción o decisión. Funcionan como atajos que ahorran tiempo al momento de evaluar una situación, pero pueden estar deformando la percepción de los hechos, incluso sin que nos demos cuenta. En la sociedad actual pueden existir sesgos basados en el género, la etnia, la raza, el ciclo de vida (edad), la procedencia de las personas, entre otros. Los sesgos pueden ser explícitos o implícitos.
       .row.justify-content-center.mb-5
         .col-lg-5.mb-lg-0.mb-3(data-aos="fade-right")
           .d-flex.align-items-center.p-3(style="border-bottom: 1px solid #12263F")
             img.me-3(src='@/assets/curso/temas/8.svg', alt='' style="width: 84px")
-            p.mb-0 #[b Sesgo explícito:] son los sentimientos, comportamientos y estereotipos conscientes dirigidos a grupos sociales e individuos, aprendidos individualmente.
+            p.mb-4 #[b Sesgo explícito:] son los sentimientos, comportamientos y estereotipos dirigidos a grupos sociales e individuos que parten del aprendizaje individual y la persona es consciente de ellos.   
         .col-lg-5(data-aos="fade-left")
           .d-flex.align-items-center.p-3(style="border-bottom: 1px solid #12263F")
             img.me-3(src='@/assets/curso/temas/9.svg', alt='' style="width: 84px")
-            p.mb-0 #[b Sesgo implícito:] se refiere a los sentimientos, comportamientos y estereotipos inconscientes que afectan a grupos sociales e individuos, manifestándose en las acciones humanas.
+            p.mb-0 #[b Sesgo implícito:] son los sentimientos, comportamientos y estereotipos dirigidos hacia grupos sociales e individuos, con la diferencia que son inconscientes y se observan en el comportamiento del ser humano.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
-          h5.mb-3(style='color: #0F5FFE') Ejemplo_1 
-          p.mb-5 Sesgo de género respecto a la salud reproductiva. 
+          h5.mb-4(style='color: #0F5FFE') Ejemplos
+          p.mb-4 #[strong Sesgo de género respecto a la salud reproductiva.]
             br
             |“No hay cultura para las mujeres lesbianas, a mí nunca me han entregado un condón para mujer, nunca se habló sobre el cuidado de las ITS (Infección de transmisión sexual) para relaciones con mujeres, es todo muy heteronormado”.
-          h5.mb-5(style='color: #0F5FFE') Ejemplo_2
-          p.mb-0 Sesgo de identidad de género.  
+          //h5.mb-3(style='color: #0F5FFE') Ejemplo
+          p.mb-0 #[strong Sesgo de identidad de género.]
             br
             |Existe la creencia errónea, según la cual, todas las personas trans desean la realización de procedimientos quirúrgicos en sus genitales (por ejemplo: vaginoplastia en el caso de las mujeres trans y faloplastia en el caso de los hombres trans). La realidad es que hay personas trans que desean este procedimiento y otras que no, lo que no excluye la realización de otro tipo de intervenciones de acuerdo con su autonomía, proceso y valoración de riesgo/beneficio.  
-        .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/10.png', alt='')
+        .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/10b.png', alt='')
       .mn.py-0.mb-5(style="background-color: #3c1c74") 
         .row.justify-content-center.align-items-center
           .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/11.svg', alt='')
           .col-lg-7(data-aos="fade-left")
             .p-4.text-white
               h4 El estereotipo
-              p.mb-0 Se refiere a las ideas preconcebidas o creencias generalizadas sobre los atributos, roles o actitudes que tienen ciertos grupos de personas. Los estereotipos de género hacen referencia a las ideas preconcebidas sobre cómo debe ser, verse o comportarse un hombre y cómo debe ser, verse o comportarse una mujer. Estos son perjudiciales cuando limitan la capacidad de las personas para expresarse, construir sus proyectos de vida o tomar decisiones.
-                br
-                | Ejemplo_1  Si es enfermero, es gay, póngale la firma.        
-                br
-                |Ejemplo_2  Dicen que es lesbiana, pero ¡yo la veo muy femenina!  
+              p.mb-3 Se refiere a las ideas preconcebidas o creencias generalizadas sobre los atributos, roles o actitudes que tienen ciertos grupos de personas. Los estereotipos de género hacen referencia a las ideas preconcebidas sobre cómo debe ser, verse o comportarse un hombre y cómo debe ser, verse o comportarse una mujer. Estos son perjudiciales cuando limitan la capacidad de las personas para expresarse, construir sus proyectos de vida o tomar decisiones.
+                
+              p.mb-0 #[strong Ejemplo]  Si es enfermero, es gay, póngale la firma.        
+              p #[strong Ejemplo]  Dicen que es lesbiana, pero ¡yo la veo muy femenina!  
+
       .tarjeta.p-5(style="background-color: #423755 ").mb-4 
         .text-white
           h4 El paradigma
@@ -59,16 +59,16 @@
           .row.justify-content-center
             .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/12.png', alt='')
             .col-lg-8(data-aos="fade-left")
-              p.mb-4 #[b Ejemplo_1]
+              p.mb-4 #[b Ejemplo]
                 br
                 br
                 |Paradigma que considera al cuerpo masculino (de hombres cisgénero) como la referencia para la producción de conocimiento en salud, por ejemplo, en los ensayos clínicos de nuevos fármacos. Esto significa que la información disponible sobre dosis y posibles efectos secundarios que tienen este tipo de tecnologías en el resto de las corporalidades suele ser desconocida y poco monitoreada (mujeres cisgénero, mujeres trans, hombres trans, personas intersex).
-              p.mb-0 #[b Ejemplo_2]
+              p.mb-0 #[b Ejemplo]
                 br
                 br
                 |Los colectivos de personas intersexuales alrededor del mundo han denunciado que la realización de cirugías de reconstrucción genital realizadas a temprana edad y, sin su consentimiento ha traído efectos devastadores. Estas intervenciones se han enmarcado, muchas veces, en el paradigma que dicta que 'lo biológico' (en sus aspectos medibles y observables) es mucho más importante que todos los demás aspectos, incluida la voluntad y el consentimiento de la persona.
       h4.mb-3 El prejuicio 
-      p.mb-5(data-aos='fade-right') Es un juicio u opinión que se forma sin el conocimiento necesario o contacto real respecto a quien o a lo que se forma. Generalmente negativo, el prejuicio no necesita evidencias y es la antesala de la discriminación. Puede tener varios componentes, como el cognitivo (creencias), afectivo (emociones) y comportamental (conducta). Es importante manifestar que, aunque existe cierta correlación entre ellos, estos tres componentes pueden presentarse de manera independiente, implicando medidas diferentes (Brigham, 1971, Psychol Bull 76:15-38). Durante la prestación del servicio, el talento humano puede evidenciar prejuicios, ignorando la diversidad y las desigualdades de género.
+      p.mb-5(data-aos='fade-right') El prejuicio es un juicio u opinión que se forma sin el conocimiento necesario o contacto real respecto a quien o a lo que se forma. El prejuicio es generalmente negativo, no necesita evidencias y es la antesala de la discriminación.  El prejuicio puede tener varios componentes como lo son el cognitivo (creencias), afectivo (emociones) y comportamental (conducta). Es importante manifestar que, aunque existe cierta correlación entre ellos, estos tres componentes pueden presentarse de manera independiente      implicando medidas diferentes (Brigham, 1971, Psychol Bull 76:15-38.). Durante la prestación del servicio, el talento humano puede evidenciar prejuicios, ignorando la diversidad y las desigualdades de género.
       h4.mb-3(style="color: #0F5FFE ") Ejemplo 
       p.mb-5(data-aos='fade-right') Prejuicios en torno a la orientación sexual y la identidad de género:
       .row.justify-content-center.align-items-center.mb-5
@@ -76,17 +76,17 @@
           .acordion-modificado 
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--acc rounded-0")
               div(titulo="Las personas bisexuales están confundidas acerca de su orientación sexual.")
-                p.mb-0 #[b Nota aclaratoria:] la bisexualidad es una orientación sexual tan válida como cualquier otra. Según Gallup, un 54,6% de los adultos LGBT+ en EE.UU. se identifica como bisexual; en México, un 51,7% de la población LGTB+ se identifica como bisexual.
+                p.mb-0 #[b Nota aclaratoria:] la bisexualidad es una orientación sexual tan válida como cualquier otra. Aunque la existencia de ésta sigue estando cuestionada desde el prejuicio, las cifras muestran otra cosa: “Según Gallup, un 54,6% de los adultos LGBT+ en EE.UU. se identifica como bisexual”, en México “un 51,7% de la población LGTB+ se identifica como bisexual”. 
             
               div(titulo="La transexualidad es considerada una enfermedad mental.")
                 p.mb-0 #[b Nota aclaratoria:] la Organización Mundial de la Salud (OMS) excluyó la transexualidad de la lista de trastornos mentales en junio de 2018. Ahora es parte de la Clasificación Internacional de Enfermedades (CIE) como condiciones relativas a la salud sexual.
             
               div(titulo="La transexualidad es una elección/opción/capricho.")
-                p.mb-0 #[b Nota aclaratoria:] las personas trans perciben que su identidad de género no corresponde con su cuerpo sexuado. Pueden realizar cambios físicos y jurídicos para ser tratadas acorde con el sexo con el que se identifican.
+                p.mb-0 #[b Nota aclaratoria:] las personas trans perciben que su identidad de género no tiene correspondencia con su cuerpo sexuado. Por esta razón, pueden llegar a realizar cambios físicos y jurídicos para que se les trate acorde con el sexo con el que se identifican.
             
               div(titulo="Todas las personas transexuales son heterosexuales.")
                 p.mb-0 #[b Nota aclaratoria:] la orientación sexual y la identidad de género son conceptos distintos. Una persona cisgénero puede ser lesbiana, gay o bisexual, igual que una persona transexual.
-        .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/13.png', alt='')
+        .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/13b.png', alt='')
       h4.mb-3 El estigma
       p.mb-5(data-aos='fade-right') Es el proceso mediante el cual un conjunto de rasgos, características o cualidades son utilizados para argumentar o legitimar la exclusión social a la cual son sometidas las personas. El estigma impone una especie de marca de deshonra a personas que presentan alguna característica considerada indeseable por un grupo social y, se usa como justificación para el rechazo y la segregación.
       .row.justify-content-center.align-items-center.mb-4
@@ -94,7 +94,8 @@
           h4(style="color: #0F5FFE ") Ejemplo 
           p.mb-4 Un hombre homosexual seguramente es VIH positivo y debe ser únicamente atendido en una institución que se ocupe de ese tipo de personas.
           .tarjeta.p-5(style="background-color: #d5e3ff")
-            p.mb-0 La orientación sexual no predice el estatus serológico de una persona. Por otro lado, en caso de tratarse de una persona VIH positiva, no se le puede excluir de la oferta de servicios debido a su diagnóstico, ya que esto correspondería a un trato degradante que obedecería a una sanción moral y no a un criterio técnico de seguridad para pacientes o profesionales de la salud.
+            p.mb-2 #[b Nota aclaratoria:] 
+            p #[b(style="color: #0F5FFE ") La orientación sexual] no predice el estatus serológico de una persona. Por otro lado, en caso de tratarse de una persona VIH positiva, no se le puede excluir de la oferta de servicios debido a su diagnóstico, ya que esto correspondería a un trato degradante que obedecería a una sanción moral y no a un criterio técnico de seguridad para pacientes o profesionales de la salud.
         .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/14.png', alt='')
       p.mb-5(data-aos='fade-right') #[b(style="color: #0F5FFE ") Los sesgos, paradigmas, estereotipos, estigmas y prejuicios] , aunque son mecanismos diferentes, se mezclan y funcionan conjuntamente en el día a día de la sociedad, provocando distinción, exclusión, restricción o preferencia, y generando discriminación de manera consciente o inconsciente. Esta discriminación ocurre cuando:
       .bg-1-1.mn.mb-4

@@ -20,7 +20,7 @@
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           .tarjeta.p-5(style="background-color: #2c3e50")
             p.mb-0.text-white La República de Colombia, al declararse un Estado Social de Derecho en la Constitución Política de 1991, incluyó artículos relacionados con los derechos humanos, la igualdad y la no discriminación. Por su parte, la Política Pública LGBTI a nivel nacional, adoptada a través del Decreto 762 de 2018, busca asegurar la garantía de los derechos de las personas con orientaciones sexuales o identidades de género diversas. Para lograrlo, contempla los diferentes enfoques y señala la importancia de definir acciones y rutas de atención buscando un cambio cultural y de comprensión de múltiples categorías identitarias o características particulares, como: sexo, género, orientación sexual, identidad de género, entre otras. 
-        .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/2.svg', alt='')
+        .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/2b.svg', alt='')
       .tarjeta.p-4(style="background-color: #423755 ").mb-5
         .row.justify-content-center.align-items-center
           .col-lg-1.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/3.svg', alt='')
@@ -54,7 +54,7 @@
         .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
           .tarjeta.p-5(style="background-color: #423755")
             p.mb-0.text-white El módulo inicia con una revisión conceptual del sesgo inconsciente de género, estableciendo pautas generales que el talento humano en salud debe conocer y aplicar para mejorar el servicio y garantizar los derechos de las personas LGTBIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. El objetivo es fomentar la comprensión y la inclusión de la diversidad sexual y de género. A pesar de los avances en organizaciones públicas y privadas para incluir a esta comunidad, siguen siendo uno de los grupos más discriminados y violentados en el país.
-        .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/5.png', alt='')
+        .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/5b.png', alt='')
 
     
     

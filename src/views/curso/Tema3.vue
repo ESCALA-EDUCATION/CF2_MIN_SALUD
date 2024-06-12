@@ -14,10 +14,16 @@
           .col-lg-11(data-aos="fade-left")
             p.mb-0.text-white  En el marco de #[span.color-acento la Constitución Política de Colombia de 1991], el Artículo 1 establece que #[span.color-acento “Colombia es un Estado social de derecho, organizado en forma de República unitaria democrática, participativa y pluralista, fundada en el respeto de la dignidad humana.”]
       p.mb-5(data-aos='fade-right') La dignidad de la persona humana es el valor básico que fundamenta los derechos humanos, constituyéndose como una garantía esencial para el desarrollo pleno de cada ser humano; derechos que son reconocidos tanto a nivel internacional como nacional. Según la Declaración Universal de Derechos Humanos de 1948, los derechos iguales e inalienables de todos los seres humanos son la base de la libertad, la justicia y la paz en el mundo.
+      
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/31.png', alt='')
         .col-lg-7(data-aos="fade-left")
           p.mb-0 Desde el punto de vista del #[b(style="color: #0F5FFE ") Pacto Internacional de Derechos Económicos, Sociales y Culturales (PIDESC)] en su artículo 12, se reconoce el derecho a la salud como #[b(style="color: #0F5FFE ") obligatorio y vinculante.] Este artículo reconoce el derecho de todas las personas a disfrutar del más alto nivel posible de salud física y mental, incluyendo la salud sexual y reproductiva, como expresiones de su autonomía y vinculadas con la dignidad humana, un valor permanente independiente de atributos sociales o el estatus en la sociedad #[b(style="color: #0F5FFE ") (UNFPA, 2019).]
+    
+
+      .tarjeta.p-4(style="background-color: #423755 ").mb-5
+        p.mb-0.text-white  A partir de estos fundamentos, se derivan principios que el personal de salud debe internalizar para garantizar el respeto a la dignidad humana de las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. A continuación, se enfocará en los principios de mayor relevancia durante la prestación de servicios de salud:
+
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 3. 
         span Principios de la dignidad humana.

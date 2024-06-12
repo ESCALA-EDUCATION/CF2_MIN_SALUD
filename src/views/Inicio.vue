@@ -28,10 +28,10 @@
                   }"
                 />
                 <div class="p-3 text-center">
-                  <div
+                  <!--<div
                     class="contenido__tarjeta__titulo mb-2 text-bold "
                     v-html="item.titulo"
-                  />
+                  />-->
                   <div
                     class="contenido__tarjeta__sub-titulo "
                     v-html="item.subTitulo"

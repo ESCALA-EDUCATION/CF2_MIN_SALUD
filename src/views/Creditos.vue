@@ -1,38 +1,33 @@
 <template lang="pug">
-.curso-main-container.creditos-vista
-  BannerInterno(icono="far fa-registered" titulo="Créditos")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .creditos.mb-4.mb-md-5
-      .creditos__item(
-        v-for="(creditoObj, index) of creditosData"
-        :key="'credito-'+index"
-        :class="index != creditosData.length -1 ? 'mb-4' : ''" 
-      )
-        .creditos__titulo {{creditoObj.titulo}}
-        table
-          tbody
-            tr(
-              v-for="(item, idx) of creditoObj.autores" 
-              :key="'autor-'+idx"
-            )
-              td.text-bold(colspan='2' v-html="renderText(item.nombre)")
-              td(colspan='2' v-html="renderText(item.cargo)")
-              td(colspan='3' v-html="renderText(item.centro)")
-    .row.mb-4.mb-md-5
-      .col-md-6.mb-4.mb-md-0
-        .tarjeta.credito.p-3.text-center.h-100
-          img.d-inline-block(src="@/assets/template/creditos-img.svg" style="width: 70px")
-          p(v-html="creditosAdicionales.imagenes")
-      .col-md-6
-        .tarjeta.credito.p-3.text-center.h-100
-          img.d-inline-block(src="@/assets/template/creditos-cc.svg" style="width: 70px;")
-          p.mb-0(v-html="creditosAdicionales.creativeCommons")
-
-    Footer(all-round)
+  .curso-main-container.creditos-vista
+    BannerInterno(icono="far fa-registered" titulo="Créditos")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
   
+      .row.mb-4.justify-content-center.align-items-center
+          .col-md-10.mb-4.mb-md-0
+            .tarjeta.p-3.text-center.h-100
+              h2 Elaborado por:
+              figure.my-4
+                img.mx-auto.d-inline-block.mb-3(src='@/assets/template/Escudo-Ministerio-de-salud.png', style="max-width: 220px")
+              figure.my-4
+                img.mx-auto.d-inline-block.mb-3(src='@/assets/template/logo-gobierno-Ministerio-de-Salud-y-Proteccion-Social-minsalud.png', style="max-width: 230px")
+  
+              
+      .row.mb-4.mb-md-5
+        .col-md-6.mb-4.mb-md-0
+          .tarjeta.credito.p-3.text-center.h-100
+            img.d-inline-block(src="@/assets/template/creditos-img.svg" style="width: 70px")
+            p(v-html="creditosAdicionales.imagenes")
+        .col-md-6
+          .tarjeta.credito.p-3.text-center.h-100
+            img.d-inline-block(src="@/assets/template/creditos-cc.svg" style="width: 70px;")
+            p.mb-0(v-html="creditosAdicionales.creativeCommons")
+  
+      Footer(all-round)
     
-
-</template>
+      
+  
+  </template>
 <script>
 import BannerInterno from '../components/plantilla/BannerInterno'
 import Footer from '../components/plantilla/Footer'
