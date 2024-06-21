@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Atención en salud con enfoque diferencial a las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género no hegemónicas. ',
+      'Enfoques en la atención en salud a las personas de los sectores LGBTIQ+ y con orientaciones sexuales e identidades de género diversas.',
     descripcionCurso:
       'En este componente se realizará una amplia descripción de los enfoques que deben considerarse en el proceso de atención para todas las personas de los sectores LGBTIQ+ y orientaciones sexuales e identidades de género no hegemónicas. El objetivo principal de estos enfoques es favorecer la equidad, igualdad y garantía de los derechos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
